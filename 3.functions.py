@@ -31,7 +31,7 @@ return a value
 """
 
 
-def main2():
+def master():
     x = int(input('What is x? '))
     print("X squared is", squared(x))
 
@@ -40,4 +40,4 @@ def squared(a):
     return a * a
 
 
-main2()
+master()
