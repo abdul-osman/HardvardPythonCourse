@@ -28,6 +28,8 @@ print((round(x + y, -5)))
 print((round(x + y, 0)))
 
 print(f"{10000000:,}") # The :, inserts commas
+print(f"{10000012.123:.2f}")  # The :. specifies how many
+print(f"{10000012.123: 2f}")
 
 a = round(x + y)
 b = round(x + y, 0)
